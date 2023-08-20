@@ -1,44 +1,70 @@
-h1 {
-	text-align: center;
+@media (min-width: 992px){
+	h1 {
+		text-align: center;
+	}
+
+	h2 {
+		text-align: center;
+		background-color: pink;
+		border: 3px solid black;
+		width: 100px;
+		float: right;
+		margin: 0px 0px 10px 0px;
+	}
+
+	h3{
+		text-align: center;
+		color: white;
+		background-color:  #ae4141 ;
+		border: 3px solid black;
+		width: 100px;
+		float: right;
+		margin: 0px 0px 10px 0px;
+
+	}
+
+
+	h4{
+		text-align: center;
+		color: solid black;
+		background-color:  #e7d7c9 ;
+		border: 3px solid black;
+		width: 100px;
+		float: right;
+		margin: 0px 0px 10px 0px;
+	}
+
+	div{
+		background-color: gray;
+		width: 33%;
+		border: 3px solid black;
+		float: left;
+	}
+
+	section {
+		clear: right;
+	}
 }
 
-h2 {
-	text-align: right;
-	background-color: pink;
-	border: 3px solid black;
-	width: 100px;
-	float: right;
-	margin: 0px 0px 10px 0px;
+@media (min-width: 768px) and (max-width: 991px){
+
 
 }
 
-h3{
-	text-align: right;
-	color: white;
-	background-color:  #ae4141 ;
-	border: 3px solid black;
-	width: 100px;
-	float: right;
-	margin: 0px 0px 10px 0px;
-}
+@media (max-width: 767px){
+	h2 {
+		text-align: center;
+		background-color: pink;
+		border: 3px solid black;
+		width: 100px;
+		float: right;
+		margin: 0px 0px 10px 0px;
+	}
+	div{
+		background-color: gray;
+		width: 33%;
+		border: 3px solid black;
+		float: left;
+	}
 
-
-h4{
-	text-align: right;
-	color: solid black;
-	background-color:  #e7d7c9 ;
-	border: 3px solid black;
-	width: 100px;
-	float: right; 
-	margin: 0px 0px 10px 0px;
-}
-
-div{
-	background-color: gray;
-	width: 33%; 
-	border: 3px solid black;
-	float: left; 
-}
-p{
-	clear: right;
 }
