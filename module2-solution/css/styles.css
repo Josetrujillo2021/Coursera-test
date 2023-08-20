@@ -6,6 +6,8 @@ h2 {
 	text-align: right;
 	background-color: pink;
 	border: 3px solid black;
+	width: 100px;
+	float: right;
 
 }
 
@@ -14,6 +16,8 @@ h3{
 	color: white;
 	background-color:  #ae4141 ;
 	border: 3px solid black;
+	width: 100px;
+	float: right;
 }
 
 
@@ -22,8 +26,15 @@ h4{
 	color: solid black;
 	background-color:  #e7d7c9 ;
 	border: 3px solid black;
+	width: 100px;
+	float: right; 
 }
 
 div{
 	background-color: gray;
+	width: 33%; 
+	float: left; 
+}
+p{
+	clear: right;
 }
