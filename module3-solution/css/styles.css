@@ -55,6 +55,7 @@ body {
   clear: both;
   margin-top: -30px;
 }
+/* END HEADER */
 
 /* Main content*/
 #Ourmenu-tile span {
@@ -91,6 +92,7 @@ h1.menu-item-title{
 }
 
 /* End of main content */
+
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
 	/* Header */
