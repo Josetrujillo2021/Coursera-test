@@ -56,7 +56,41 @@ body {
   margin-top: -30px;
 }
 
+/* Main content*/
+#Ourmenu-tile span {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #000000;
+}
+#Textoplano {
+  height: 1000px;
+  width: 100%;
+  background-color: #808080; 
+  margin-bottom: 20px;
+  margin-top: : 20px;
+  position: relative;
+  /*border: 2px solid #000000;*/
+}
 
+h1.menu-item-title{
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.menu-item-details { /* tipo de letra y tamaño*/
+  font-size: 1em;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* End of main content */
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
 	/* Header */
